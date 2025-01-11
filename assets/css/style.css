@@ -93,14 +93,13 @@ nav {
 /* Main Section*/
 
 main {
-    margin-top: 75px;
+    margin-top: 60px;
     flex: 1 0 auto;
 }
 
-div .img-fluid {
-    position: top;
-
-}
+/*.img-fluid {
+    margin-top: -20px;
+}*/
 
 
     
