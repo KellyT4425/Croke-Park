@@ -1,16 +1,97 @@
 @import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Domine:wght@400..700&family=Goldman:wght@400;700&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Macondo&family=Oswald:wght@200..700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Domine:wght@400..700&family=Goldman:wght@400;700&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Macondo&family=Oswald:wght@200..700&display=swap');
 
+/* Headings- font-family: "Goldman", serif;*/
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
 body {
+    /* Generic styles */
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
     background-color: #f7f7f7;
-}
-
-h1 {
-    font-family: "Goldman", serif;
-    color: #535353;
-}
-
-p {
     font-family: "DM Sans", serif;
     color: #535353;
 }
+
+
+#logo {
+    font-size: 2.5rem;
+    font-family: "Goldman", serif;
+    padding-top: 4px;
+
+}
+
+.hidden-heading {
+    display: none;
+}
+
+header {
+    background-color: #f7f7f7;
+    padding: 0 1rem;
+    position: fixed;
+    z-index: 99;
+    width: 100%;
+    box-shadow: 0 2px 2px #535353;
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+
+}
+
+header a {
+    text-decoration: none;
+    color: inherit;
+}
+
+#menu {
+    font-size: 105%;
+    letter-spacing: 2px;
+    list-style-type: none;
+}
+
+#menu > li {
+    margin-bottom: 1em;
+}
+
+.active {
+    border-bottom: 1px solid #535353;
+}
+
+/* Navbar style with dropdown toggle */
+nav {
+    position: absolute;
+    background-color: #f7f7f7;
+    width: 100%;
+    padding: 0 1rem;
+    box-shadow: 0 2px 2px #3a3a3a;
+    left: 0;
+    display: none;
+    top: 100%;
+    color: #3e5368;
+    text-shadow: #535353;
+    
+}
+
+/* Nav Toggle */
+#nav-toggle:checked~nav {
+    display: block;
+}
+
+#nav-toggle {
+    display: none;
+}
+
+.nav-toggle-label {
+    font-size: 2rem;
+}
+
+
+
+    
