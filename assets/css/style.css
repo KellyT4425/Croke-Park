@@ -23,7 +23,7 @@ body {
 
 
 #logo {
-    font-size: 2.2rem;
+    font-size: 2.6rem;
     font-family: "Goldman", serif;
     padding-top: 0.5rem;
 }
@@ -85,27 +85,66 @@ nav {
 }
 
 .nav-toggle-label {
-    font-size: 1.5rem;
+    font-size: 2rem;
     padding: 0;
 } 
 
 /* Main Section*/
 
 main {
-    margin-top: 60px;
+    margin-top: 70px;
     flex: 1 0 auto;
 }
 
-h1 {
+h2 {
     font-family: "Goldman", serif;
     padding-top: 1rem;
     display: flex;
     justify-content: center;
+    letter-spacing: 2px;
+    font-weight: 600;
+    color: #3e5368;
+    border-bottom: 2px solid #3e5368;
 }
 
-/* Home Page */
+
+#welcome-video {
+    display: flex;
+    padding: 0;
+    
+}
 
 
+#stadium-insight,
+#why-visit {
+    padding: 0 5% 0 5%;
+}
+
+/* Footer */
+
+/*footer {
+    position: fixed;
+    
+}*/
+
+#social-media {
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+    padding: 0;
+    margin: 20px 0 20px 0;
+}
+
+footer ul {
+    list-style-type: none;
+    
+}
+
+#social-media i {
+    color:#535353;
+    font-size: 150%;
+    padding: 10%;
+}
 
 /* Media Queries */
 
