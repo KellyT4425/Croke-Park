@@ -26,8 +26,8 @@ body {
     font-size: 2.2rem;
     font-family: "Goldman", serif;
     padding-top: 0.5rem;
-
 }
+
 
 header {
     background-color: #f7f7f7;
@@ -37,7 +37,7 @@ header {
     width: 100%;
     box-shadow: 0 2px 2px #535353;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-between; 
     align-items: baseline;
 
 }
@@ -103,5 +103,56 @@ h1 {
     justify-content: center;
 }
 
+/* Home Page */
+
+
+
+/* Media Queries */
+
+@media screen and (min-width: 576px){
+    body {
+        width: fit-content;
+        background-color: green;
+    }
+
+    .nav-toggle-label {
+        width: fit-content;
+    }
+
+    #nav-toggle {
+        width: fit-content;
+    }
+
+    header .nav-toggle-label {
+        width: auto;
+    }
 
     
+}
+
+@media screen and (min-width: 768px){
+    body {
+            width: fit-content;
+            
+        }
+
+
+
+    }
+
+
+@media screen and (min-width: 992px){
+    body {
+        width: fit-content;
+    }
+    
+
+}
+
+@media screen and (min-width: 1200px){
+    body {
+        width: fit-content;
+    }
+    
+
+}
