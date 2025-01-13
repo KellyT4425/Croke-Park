@@ -18,6 +18,7 @@ body {
     background-color: #f7f7f7;
     font-family: "DM Sans", serif;
     color: #535353;
+    font-size: 1rem;
 }
 
 
@@ -97,9 +98,12 @@ main {
     flex: 1 0 auto;
 }
 
-/*.img-fluid {
-    margin-top: -20px;
-}*/
+h1 {
+    font-family: "Goldman", serif;
+    padding-top: 1rem;
+    display: flex;
+    justify-content: center;
+}
 
 
     
