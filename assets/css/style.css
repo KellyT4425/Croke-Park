@@ -73,9 +73,7 @@ nav {
     display: none;
     top: 100%;
     color: #3e5368;
-    text-shadow: #535353;
-    
-}
+} 
 
 /* Nav Toggle */
 #nav-toggle:checked~nav {
@@ -89,7 +87,7 @@ nav {
 .nav-toggle-label {
     font-size: 1.5rem;
     padding: 0;
-}
+} 
 
 /* Main Section*/
 
