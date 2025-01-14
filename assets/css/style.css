@@ -19,8 +19,8 @@ body {
     font-family: "DM Sans", serif;
     color: #535353;
     font-size: 1rem;
+    /*position: relative;*/
 }
-
 
 #logo {
     font-size: 2.6rem;
@@ -96,9 +96,13 @@ nav {
 /* Main Section*/
 
 main {
-    margin-top: 70px;
     flex: 1 0 auto;
 }
+
+/*.img-fluid {
+    margin-top: 60px;
+
+}*/
 
 h2 {
     font-family: "Goldman", serif;
@@ -111,18 +115,11 @@ h2 {
     border-bottom: 2px solid #3e5368;
 }
 
-
-#welcome-video {
-    display: flex;
-    padding: 0;
-    
-}
-
-
 #stadium-insight,
 #why-visit {
     padding: 0 5% 0 5%;
 }
+
 
 /* Contact Page */
 
@@ -132,10 +129,16 @@ h2 {
 
 /* Footer */
 
-/*footer {
-    position: fixed;
-    
-}*/
+footer {
+    bottom: 0;
+    left: 0;
+    right: 0;
+    position: static;
+    width: 100%;
+    background-color: #f7f7f7;
+    text-align: center;
+}
+
 
 #social-media {
     display: flex;
@@ -158,6 +161,8 @@ footer ul {
 
 /* Media Queries */
 
+/* Media Query: large or landscape phones (576px and up) */
+
 @media screen and (min-width: 576px){
     body {
         width: fit-content;
@@ -175,31 +180,58 @@ footer ul {
         width: auto;
     }
 
+    #welcome-video {
+        width: 100%;
+        height: 200px;
+        
+    }
+
     
 }
+
+/* Media Query: tablets and larger (768px and up) */
 
 @media screen and (min-width: 768px){
     body {
             width: fit-content;
             
         }
-
-
+     
+        
+    #welcome-video {
+            width: 100%;
+            height: 200px;
+    
+        }   
 
     }
+
+/* Larger devices (laptops and desktops, 992px and up) */
 
 
 @media screen and (min-width: 992px){
     body {
         width: fit-content;
     }
+
+    #welcome-video {
+        padding: 0 5% 0 5%;
+        
+    }
+
     
 
 }
 
+/* Larger devices for screens 1200px and wider */
+
 @media screen and (min-width: 1200px){
     body {
         width: fit-content;
+    }
+
+    #welcome-video {
+        padding: 0 5% 0 5%;
     }
     
 
