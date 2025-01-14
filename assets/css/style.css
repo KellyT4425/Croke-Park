@@ -26,11 +26,13 @@ body {
     font-size: 2.6rem;
     font-family: "Goldman", serif;
     padding-top: 0.5rem;
+    color: #f7f7f7;
+    font-weight: 400;
 }
 
 
 header {
-    background-color: #f7f7f7;
+    background-color: #3e5368;
     padding: 0 1rem;
     position: fixed;
     z-index: 99;
@@ -59,20 +61,21 @@ header a {
 }
 
 .active {
-    border-bottom: 1px solid #535353;
+    border-bottom: 1px solid #f7f7f7;
 }
 
 /* Navbar style with dropdown toggle */
 nav {
     position: absolute;
-    background-color: #f7f7f7;
+    background-color: #3e5368;
+    font-weight: 550;
     width: 100%;
     padding: 0;
     box-shadow: 0 2px 2px #3a3a3a;
     left: 0;
     display: none;
     top: 100%;
-    color: #3e5368;
+    color: #f7f7f7;
 } 
 
 /* Nav Toggle */
@@ -87,6 +90,7 @@ nav {
 .nav-toggle-label {
     font-size: 2rem;
     padding: 0;
+    color: #f7f7f7;
 } 
 
 /* Main Section*/
