@@ -1,24 +1,52 @@
 @import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Domine:wght@400..700&family=Goldman:wght@400;700&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Macondo&family=Oswald:wght@200..700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Domine:wght@400..700&family=Goldman:wght@400;700&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Macondo&family=Oswald:wght@200..700&display=swap');
 
-/* Headings- font-family: "Goldman", serif;*/
-
 * {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
 }
 
-
+/* Generic styles */
 body {
-    /* Generic styles */
     min-height: 100vh;
+    min-width: 100vw;
     display: flex;
     flex-direction: column;
-    background-color: #f7f7f7;
+/* Generic project styles */
+    color: #3a3a3a;
     font-family: "DM Sans", serif;
-    color: #535353;
-    font-size: 1rem;
+}
+
+
+.hidden-heading {
+    display: none;
+}
+
+h2 {
+    font-family: "Goldman", serif;
+    font-weight: 400;
+}
+
+.croke-park h2 {
+    text-align: center;
+    border-bottom: 2px solid #3e5368;
+    font-size: 40px;
+    margin-top: 20px;
+}
+
+/*Header*/
+header {
+    background-color: #3e5368;
+    padding: 0 1rem;
+    position: fixed;
+    z-index: 99;
+    width: 100%;
+    box-shadow: 0 2px 2px #3a3a3a;
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+
 }
 
 #logo {
@@ -29,34 +57,20 @@ body {
     font-weight: 400;
 }
 
-
-header {
-    background-color: #3e5368;
-    padding: 0 1rem;
-    position: fixed;
-    z-index: 99;
-    width: 100%;
-    box-shadow: 0 2px 2px #535353;
-    display: flex;
-    justify-content: space-between; 
-    align-items: baseline;
-
-}
-
 header a {
     text-decoration: none;
     color: inherit;
 }
 
 #menu {
-    font-size: 120%;
-    letter-spacing: 2px;
+    font-size: 110%;
+    letter-spacing: 4px;
     list-style-type: none;
-    padding-left: 1rem;
 }
 
 #menu > li {
     margin-bottom: 1em;
+    color: #f7f7f7;
 }
 
 .active {
@@ -67,15 +81,13 @@ header a {
 nav {
     position: absolute;
     background-color: #3e5368;
-    font-weight: 550;
     width: 100%;
-    padding: 0;
-    box-shadow: 0 2px 2px #3a3a3a;
+    padding: 0 1rem;
+    box-shadow: 0 2px 2px #535353;
     left: 0;
     display: none;
     top: 100%;
-    color: #f7f7f7;
-} 
+}
 
 /* Nav Toggle */
 #nav-toggle:checked~nav {
@@ -88,134 +100,82 @@ nav {
 
 .nav-toggle-label {
     font-size: 2rem;
-    padding: 0;
     color: #f7f7f7;
-} 
-
-/* Main Section*/
-
-main {
-    flex: 1 0 auto;
 }
-
-main .img-fluid {
-    margin-top: 45px;
-}
-
-h2 {
-    font-family: "Goldman", serif;
-    padding-top: 1rem;
-    display: flex;
-    justify-content: center;
-    letter-spacing: 2px;
-    font-weight: 600;
-    color: #3e5368;
-    border-bottom: 2px solid #3e5368;
-}
-
-#stadium-insight,
-#why-visit {
-    padding: 0 5% 0 5%;
-}
-
-/* Tour Page */
-
-#tour-options h1 {
-    margin-top: 45px;
-}
-
-
-/* Contact Page */
-
-/*#hero-img {
-    background-image: url("../assets/images/croke-park1.jpg");
-}*/
-
-/* Footer */
-
 
 #social-media {
     display: flex;
     justify-content: space-evenly;
-    text-align: center;
-    padding: 0;
-    margin: 20px 0 20px 0; 
-}
-
-footer ul {
     list-style-type: none;
-    
+    padding: 5%;
+    margin-bottom: 0;
+
 }
 
 #social-media i {
-    color:#535353;
-    font-size: 150%;
-    padding: 10%;
+    color: #535353;
+    font-size: 1.5rem;
 }
 
-/* Media Queries */
-
-/* Media Query: large or landscape phones (576px and up) */
-
-@media screen and (min-width: 576px){
-    body {
-        width: fit-content;
-    }
-
-    .nav-toggle-label {
-        width: fit-content;
-    }
-
-    #nav-toggle {
-        width: fit-content;
-    }
-
-    header .nav-toggle-label {
-        width: auto;
-    }
-
-
-    
+main {
+    /* Make main element take up any surplus space to push footer down */
+    flex: 1 0 auto;
+    margin-top: 65px;
 }
+
+.img-fluid {
+    height: 90vw;
+    width: 90vw;
+    border-radius: 50%;
+    max-width: 300px;
+    max-height: 300px;
+    margin-left: 22px;
+    margin-top: 10px;
+}
+
+.croke-park, .history {
+    margin-top: 10px;
+    padding: 0 5px 0 5px;
+}
+
+.croke-park p, .history p {
+    display: flex;
+    text-align: center;
+}
+
+
+
 
 /* Media Query: tablets and larger (768px and up) */
 
-@media screen and (min-width: 768px){
-    body {
-            width: fit-content;
-            
-        }
-      
-
-    }
-
-/* Larger devices (laptops and desktops, 992px and up) */
-
-
-@media screen and (min-width: 992px){
-    body {
+@media screen and (min-width: 768px) {
+    /* Header */
+    nav {
+        display: block;
+        position: relative;
+        box-shadow: none;
         width: fit-content;
+        padding-right: 1rem;
     }
 
-    #welcome-video {
-        padding: 0 5% 0 5%;
-        
+    #menu {
+        display: flex;
     }
 
-    
+    #menu > li {
+        padding-left: 1rem;
+    }
+
+    .nav-toggle-label {
+        display: none;
+    }
+
+    #logo {
+        font-size: 280%;
+        line-height: 75px;
+        margin: 0 0.5rem;
+
+    }
 
 }
 
-/* Larger devices for screens 1200px and wider */
-
-@media screen and (min-width: 1200px){
-    body {
-        width: fit-content;
-    }
-
-    #welcome-video {
-        padding: 0 5% 0 5%;
-    }
-    
-
-}
