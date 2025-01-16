@@ -28,11 +28,21 @@ h1, h2 {
     font-weight: 400;
     border-bottom: 2px solid #3e5368;
     color: #3e5368;
+    letter-spacing: 1px;
+    padding: 20px 0 0 0;
+    font-size: 30px;
+}
+
+h4, h5 {   
+    font-family: "Goldman", serif;
+    color: #3e5368;
+    letter-spacing: 1px;
+    padding: 20px 0 0 0;
 }
 
 .croke-park h2 {
     border-bottom: 2px solid #3e5368;
-    font-size: 40px;
+    font-size: 30px;
     margin-top: 20px;
 }
 
@@ -141,13 +151,41 @@ main {
 }
 
 .atmosphere, .unique {
-    padding: 0 10px 0 10px;
+    padding: 0 10px 10px 10px;
     background-color: rgba(21, 16, 0, 0.17);
     border-radius: 25px;
+    
 }
 
-#location-map {
-    margin-top: 20px
+.welcome-video {
+    margin-top: 10px;
+}
+
+.visit-crokepark h2 {
+    border: none;
+
+}
+
+.visit-crokepark {
+    padding: 20px 10px 10px 10px;
+}
+
+#tour, #location {
+   
+}
+
+
+.card {
+    padding: 10px 5px 10px 5px;
+    min-width: 100%;
+    border-radius: 0;
+    margin: 10px 0 10px 0;
+}
+
+
+
+.location-map {
+    padding-top: 20px;
 }
 
 
