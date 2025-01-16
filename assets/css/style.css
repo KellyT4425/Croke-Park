@@ -19,17 +19,18 @@ body {
 }
 
 
-.hidden-heading {
+/*.hidden-heading {
     display: none;
-}
+}*/
 
-h2 {
+h1, h2 {
     font-family: "Goldman", serif;
     font-weight: 400;
+    border-bottom: 2px solid #3e5368;
+    color: #3e5368;
 }
 
 .croke-park h2 {
-    text-align: center;
     border-bottom: 2px solid #3e5368;
     font-size: 40px;
     margin-top: 20px;
@@ -136,14 +137,18 @@ main {
 .croke-park, .history {
     margin-top: 10px;
     padding: 0 5px 0 5px;
-}
-
-.croke-park p, .history p {
-    display: flex;
     text-align: center;
 }
 
+.atmosphere, .unique {
+    padding: 0 10px 0 10px;
+    background-color: rgba(21, 16, 0, 0.17);
+    border-radius: 25px;
+}
 
+#location-map {
+    margin-top: 20px
+}
 
 
 /* Media Query: tablets and larger (768px and up) */
