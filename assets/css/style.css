@@ -27,7 +27,7 @@ h1, h2 {
     font-family: "Goldman", serif;
     font-weight: 400;
     border-bottom: 2px solid #3e5368;
-    color: #3e5368;
+    color: #f7f7f7;
     letter-spacing: 1px;
     padding: 20px 0 0 0;
     font-size: 30px;
@@ -37,13 +37,14 @@ h4, h5 {
     font-family: "Goldman", serif;
     color: #3e5368;
     letter-spacing: 1px;
-    padding: 20px 0 0 0;
+    padding: 0;
 }
 
 .croke-park h2 {
     border-bottom: 2px solid #3e5368;
     font-size: 30px;
     margin-top: 20px;
+    color: #535353;
 }
 
 /*Header*/
@@ -142,6 +143,7 @@ main {
     max-height: 300px;
     margin-left: 22px;
     margin-top: 10px;
+    background-color: #f7f7f7;
 }
 
 .croke-park, .history {
@@ -150,9 +152,13 @@ main {
     text-align: center;
 }
 
+.atmosphere {
+    margin-bottom: 10px;
+}
+
 .atmosphere, .unique {
     padding: 0 10px 10px 10px;
-    background-color: rgba(21, 16, 0, 0.17);
+    background-color: rgba(128, 121, 110, 0.67);
     border-radius: 25px;
     
 }
@@ -163,30 +169,42 @@ main {
 
 .visit-crokepark h2 {
     border: none;
+    color: #535353;
 
 }
 
 .visit-crokepark {
-    padding: 20px 10px 10px 10px;
+    padding: 0 10px 10px 10px;
 }
-
-#tour, #location {
+ 
+.location-map, #location h2 {
+    color: #535353;
+    padding-left: 10px;
    
 }
 
+.tour-options, #tours h2 {
+    color: #535353;
+    padding-left: 10px;
+}
 
 .card {
     padding: 10px 5px 10px 5px;
     min-width: 100%;
-    border-radius: 0;
     margin: 10px 0 10px 0;
+    border: none;
 }
 
-
+#enquire a {
+    background-color: #3e5368;
+    color: #f7f7f7;
+    padding: 2px;
+    text-decoration: none;
+}
 
 .location-map {
     padding-top: 20px;
-}
+    padding-left: 0; }
 
 
 /* Media Query: tablets and larger (768px and up) */
