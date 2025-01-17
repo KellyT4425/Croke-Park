@@ -14,7 +14,7 @@ body {
     display: flex;
     flex-direction: column;
 /* Generic project styles */
-    color: #535353;
+    color: #000000;
     font-family: "DM Sans", serif;
     font-weight: 500;
 }
@@ -30,7 +30,7 @@ h1, h2 {
 
 h4, h5 {   
     font-family: "Goldman", serif;
-    color: #3e5368;
+    color:  #000000;
     letter-spacing: 1px;
     padding: 0;
 }
@@ -39,16 +39,16 @@ h4, h5 {
     border-bottom: 2px solid #3e5368;
     font-size: 30px;
     margin-top: 15px;
-    color: #3e5368;
+    color: #000000;
 }
 
 .vouchers h2 {
-    color: #535353;
+    color:  #000000;
 }
 
 /*Header*/
 header {
-    background-color: #3e5368;
+    background-color: rgba(6, 9, 9, 0.60);
     padding: 0 1rem;
     position: fixed;
     z-index: 99;
@@ -92,7 +92,7 @@ header a {
 /* Navbar style with dropdown toggle */
 nav {
     position: absolute;
-    background-color: #3e5368;
+    background-color: rgba(6, 9, 9, 0.60);
     width: 100%;
     padding: 0;
     box-shadow: 0 2px 2px #535353;
@@ -164,8 +164,10 @@ main {
 
 .atmosphere, .unique {
     padding: 0 10px 10px 10px;
-    background-color: rgba(46, 167, 239, 0.47);
-    margin: 0 5px 0 5px
+    background-color: rgba(6, 9, 9, 0.45);
+    margin: 0 5px 0 5px;
+    font-weight: 500;
+    color:#f7f7f7;
     
 }
 
@@ -175,24 +177,23 @@ main {
 
 .visit-crokepark h2 {
     border: none;
-    color: #535353;
+    color:  #000000;
 
 
 }
-
 
 .visit-crokepark {
     padding: 0 10px 10px 10px;
 }
  
 .location-map, #location h2 {
-    color: #535353;
+    color:  #000000;
     padding-left: 10px;
    
 }
 
 .tour-options, #tours h2 {
-    color: #535353;
+    color:  #000000;
     padding-left: 10px;
 }
 
@@ -209,7 +210,7 @@ main {
 }
 
 #enquire a {
-    background-color: #3e5368;
+    background-color:  #000000;
     color: #f7f7f7;
     padding: 2px;
     text-decoration: none;
@@ -218,7 +219,7 @@ main {
 
 .vouchers a {
     text-decoration: none;
-    background-color: #3e5368;
+    background-color:  #000000;
     color: #f7f7f7;
     padding: 2px;
 }
@@ -226,6 +227,50 @@ main {
 .location-map {
     padding-left: 0; 
 }
+
+main {
+    flex: 1 0 auto;
+    margin-top: 65px;
+    display: flex;
+    flex-direction: column;
+}
+
+
+#hero-img {
+    background-image: url("../images/croke-parkariel.png");
+    background-color: #ffffff;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 0 10% 0 10%;
+    flex-grow: 1;
+    /*position: relative;*/
+    
+}
+
+#contact-form h2 {
+    padding-top: 0;
+    padding-bottom: 10px;
+}
+
+#contact-form {
+    color: #f7f7f7;
+    background-color: rgba(6, 9, 9, 0.60);
+    padding: 30px;
+    display: flex;
+    position: absolute;
+    align-items: baseline;
+    margin: 20px;
+    flex-direction: column;
+    top: 170px;
+    right: 10px;
+}
+
+textarea {
+        resize: vertical;
+        width: 220px;
+        height: 100px;
+    }
 
 
 /* Media Query: tablets and larger (768px and up) */
