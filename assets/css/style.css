@@ -14,14 +14,10 @@ body {
     display: flex;
     flex-direction: column;
 /* Generic project styles */
-    color: #3a3a3a;
+    color: #535353;
     font-family: "DM Sans", serif;
+    font-weight: 500;
 }
-
-
-/*.hidden-heading {
-    display: none;
-}*/
 
 h1, h2 {
     font-family: "Goldman", serif;
@@ -42,8 +38,8 @@ h4, h5 {
 .croke-park h2 {
     border-bottom: 2px solid #3e5368;
     font-size: 30px;
-    margin-top: 20px;
-    color: #535353;
+    margin-top: 15px;
+    color: #3e5368;
 }
 
 .vouchers h2 {
@@ -84,6 +80,7 @@ header a {
 }
 
 #menu > li {
+    margin-left: 0;
     margin-bottom: 1em;
     color: #f7f7f7;
 }
@@ -97,11 +94,15 @@ nav {
     position: absolute;
     background-color: #3e5368;
     width: 100%;
-    padding: 0 1rem;
+    padding: 0;
     box-shadow: 0 2px 2px #535353;
     left: 0;
     display: none;
     top: 100%;
+}
+
+nav #menu {
+    padding-left: 1rem;
 }
 
 /* Nav Toggle */
@@ -164,19 +165,21 @@ main {
 .atmosphere, .unique {
     padding: 0 10px 10px 10px;
     background-color: rgba(46, 167, 239, 0.47);
-    border-radius: 25px;
+    margin: 0 5px 0 5px
     
 }
 
 .welcome-video {
-    margin-top: 10px;
+    margin-top: 30px;
 }
 
 .visit-crokepark h2 {
     border: none;
     color: #535353;
 
+
 }
+
 
 .visit-crokepark {
     padding: 0 10px 10px 10px;
