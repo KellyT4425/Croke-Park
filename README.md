@@ -5,7 +5,7 @@
 
 >[**View my Project on GitHub - HERE**](https://github.com/KellyT4425/Croke-Park.git) <br>
 <br>
-[<span style="color:red;">**Deploy Website - HERE**](https://kellyt4425.github.io/Croke-Park/) 
+[**Deploy Website - HERE**](https://kellyt4425.github.io/Croke-Park/) 
 
 
 
@@ -47,6 +47,7 @@ Two font families where selected to add style to the project, DM Sans, serif was
 ### **Wireframes**
 In the preparation stage of this project wireframes where created to provide visual aid to how the website should look and what features and functions it should have in order to meet its purpose. [**Balsamiq**](https://balsamiq.com/?gad_source=1&gclid=Cj0KCQiAy8K8BhCZARIsAKJ8sfTQzFLDPDxMbsgk-9un-aJDk1xvFlZdENGLQvV-c8Qv2NDKX6_d-T0aAjBaEALw_wcB) was used to create the below wireframes. 
 
+![WireframeSmart-Phone](assets/images/Wireframesmart-phone.png)
 
 ![WireframeTAB](assets/images/WireframeTab.png)
 
