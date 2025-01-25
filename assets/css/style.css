@@ -14,14 +14,13 @@ body {
     display: flex;
     flex-direction: column;
 /* Generic project styles */
-    color: #000000;
     font-family: "DM Sans", serif;
 }
 
 h1, h2 {
     font-family: "Goldman", serif;
     font-weight: 400;
-    color: #f7f7f7;
+    color: #647061;
     letter-spacing: 1px;
     padding: 20px 0 0 0;
     font-size: 30px;
@@ -29,7 +28,7 @@ h1, h2 {
 
 h4, h5 {   
     font-family: "Goldman", serif;
-    color:  #000000;
+    color:  #647061;
     letter-spacing: 1px;
     padding: 0;
 }
@@ -38,16 +37,16 @@ h4, h5 {
     border-bottom: 2px solid #3e5368;
     font-size: 30px;
     margin-top: 15px;
-    color: #000000;
+    color: #647061;
 }
 
 .vouchers h2 {
-    color:  #000000;
+    color:  #647061;
 }
 
 /*Header*/
 header {
-    background-color: #000000;
+    background-color: #647061;
     padding: 0 1rem;
     margin: none;
     position: fixed;
@@ -64,7 +63,7 @@ header {
     font-size: 2.6rem;
     font-family: "Goldman", serif;
     padding-top: 0.5rem;
-    color: #f7f7f7;
+    color: #D5DCD9;
     font-weight: 400;
 }
 
@@ -82,20 +81,20 @@ header a {
 #menu > li {
     margin-left: 0;
     margin-bottom: 1em;
-    color: #f7f7f7;
+    color: #D5DCD9;
 }
 
 .active {
-    border-bottom: 1px solid #f7f7f7;
+    border-bottom: 1px solid #D5DCD9;
 }
 
 /* Navbar style with dropdown toggle */
 nav {
     position: absolute;
-    background-color: #000000;
+    background-color: #647061;
     width: 100%;
     padding: 0;
-    box-shadow: 0 2px 2px #535353;
+    box-shadow: 0 2px 2px #D5DCD9;
     left: 0;
     display: none;
     top: 100%;
@@ -116,7 +115,7 @@ nav #menu {
 
 .nav-toggle-label {
     font-size: 2rem;
-    color: #f7f7f7;
+    color: #D5DCD9;
 }
 
 #social-media {
@@ -129,7 +128,7 @@ nav #menu {
 }
 
 #social-media i {
-    color: #535353;
+    color: #647061;
     font-size: 1.5rem;
 }
 
@@ -142,7 +141,7 @@ main {
 .img-fluid {
     height: 90vw;
     width: 90vw;
-    /*border-radius: 50%;*/
+    border-radius: 20px;
     max-width: 400px;
     max-height: 400px;
     margin-top: 10px;
@@ -164,10 +163,12 @@ main {
 
 .atmosphere, .unique {
     padding: 10px 10px 10px 10px;
-    background-color: rgba(6, 9, 9, 0.45);
-    margin: 0 5px 0 5px;
-    font-weight: 500;
-    color:#f7f7f7;
+    background-color: rgba(24, 44, 50, 0.39);
+    margin: 0 5px 5px 5px;
+    font-weight: 600;
+    color:#ffffff;
+    border-radius: 20px;
+    
     
 }
 
@@ -177,7 +178,7 @@ main {
 
 .visit-crokepark h2 {
     border: none;
-    color:  #000000;
+    color:  #647061;
 
 
 }
@@ -187,19 +188,19 @@ main {
 }
  
 .location-map, #location h2 {
-    color:  #000000;
+    color:  #647061;
     padding-left: 10px;
    
 }
 
 .tour-options, #tours h2 {
-    color:  #000000;
+    color:  #647061;
     padding-left: 10px;
 }
 
 .card {
     padding: 10px 5px 10px 5px;
-    min-width: 100%;
+    min-width: 100%;;
     margin: 10px 0 0 0;
     border: none;
 }
@@ -210,8 +211,8 @@ main {
 }
 
 #enquire a {
-    background-color:  #000000;
-    color: #f7f7f7;
+    background-color:  #647061;
+    color: #D5DCD9;
     padding: 2px;
     text-decoration: none;
     
@@ -219,8 +220,8 @@ main {
 
 .vouchers a {
     text-decoration: none;
-    background-color:  #000000;
-    color: #f7f7f7;
+    background-color:  #647061;
+    color: #D5DCD9;
     padding: 2px;
 }
 
@@ -251,16 +252,19 @@ main {
 #contact-form h2 {
     padding-top: 0;
     padding-bottom: 10px;
+    color: #D5DCD9;
+    font-weight: 500;
 }
 
 #contact-form {
-    color: #f7f7f7;
-    background-color: rgba(6, 9, 9, 0.60);
+    color: #D5DCD9;
+    background-color: rgba(24, 44, 50, 0.60);
     padding: 30px;
     display: flex;
     position: absolute;
     align-items: baseline;
     margin: 20px;
+    font-weight: 600;
     flex-direction: column;
     top: 170px;
     right: 10px;
@@ -333,10 +337,10 @@ textarea {
         right: 0;
         padding: 10px;
         margin-right: 50px;
-        background-color: rgba(6, 9, 9, 0.60);
+        background-color: #647061;
         text-align: center;
         color: #f7f7f7;
-        font-style: 600;
+        font-weight: 600;
         font-size: 1rem;
         border-radius: 25px;
     }
@@ -350,6 +354,14 @@ textarea {
         min-width: 50%;
         display: flex;
     }
+
+    #contact-form {
+        right: 100px;
+        padding: 60px;
+        margin: 50px 100px 50px 50px;
+        box-shadow: 2px solid #D5DCD9;
+    }
+
 
     
 
