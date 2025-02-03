@@ -11,6 +11,7 @@
 body {
     min-height: 100vh;
     min-width: 100vw;
+    background-color: #D5DCD9;
     display: flex;
     flex-direction: column;
 /* Generic project styles */
@@ -148,6 +149,7 @@ main {
     width: 100%;
     background-color: #f7f7f7;
     display: flex;
+    border: 2px solid #3e536870;
     
 }
 
@@ -163,13 +165,11 @@ main {
 
 .atmosphere, .unique {
     padding: 10px 10px 10px 10px;
-    background-color: rgba(24, 44, 50, 0.39);
+    /*background-color: rgba(24, 44, 50, 0.39);*/
     margin: 0 5px 5px 5px;
-    font-weight: 600;
-    color:#ffffff;
-    border-radius: 20px;
-    
-    
+    font-weight: 400;
+    color:#000000;
+
 }
 
 .welcome-video {
@@ -200,8 +200,8 @@ main {
 
 .card {
     padding: 10px 5px 10px 5px;
-    min-width: 100%;;
-    margin: 10px 0 0 0;
+    min-width: 100%;
+    margin: 10px 5px 5px 5px;
     border: none;
 }
 
@@ -215,6 +215,8 @@ main {
     color: #D5DCD9;
     padding: 2px;
     text-decoration: none;
+    display: flex;
+    
     
 }
 
@@ -332,7 +334,7 @@ textarea {
     .history {
         display: flex;
         position: absolute;
-        top: 300px;
+        top: 500px;
         width: 50%;
         right: 0;
         padding: 10px;
@@ -351,8 +353,11 @@ textarea {
     }
 
     .card {
-        min-width: 50%;
+        min-width: 45%;
         display: flex;
+        margin: 15px 15px 15px 21px;
+        padding: 20px;
+        border: 3px solid #3a3a3a70;
     }
 
     #contact-form {
@@ -362,12 +367,6 @@ textarea {
         box-shadow: 2px solid #D5DCD9;
     }
 
-
-    
-
-    
-
-    
 
 
 }
