@@ -21,7 +21,7 @@ body {
 h1,
 h2 {
   font-family: "Goldman", serif;
-  font-weight: 400;
+  font-weight: 600;
   color: #647061;
   letter-spacing: 1px;
   padding: 20px 0 0 0;
@@ -151,7 +151,6 @@ main {
   background-color: #f7f7f7;
   display: flex;
   border: 2px solid #3e536870;
-  justify-content: center;
 }
 
 .croke-park,
@@ -160,6 +159,18 @@ main {
   margin-top: 10px;
   padding: 0 5px 0 5px;
   text-align: center;
+}
+
+.atmosphere h1 {
+    color: #647061;
+    font-weight: 600;
+    letter-spacing: 2px;
+    display: flex;
+    justify-content: center;
+    padding-bottom: 20px;
+    border-top: 3px solid #647061;
+    border-bottom: 3px solid #647061;
+    border-radius: 5px;
 }
 
 .atmosphere {
@@ -177,6 +188,8 @@ main {
 
 .welcome-video {
   margin-top: 30px;
+  width: 100%;
+  height: 350px;
 }
 
 .visit-crokepark h2 {
@@ -194,6 +207,12 @@ main {
   padding-left: 10px;
 }
 
+.location-map iframe {
+    width: 100%; 
+    height: 250px;
+    border: 0;
+}
+
 #tour-options h2 {
   color: #647061;
   padding-left: 10px;
@@ -205,8 +224,8 @@ main {
   justify-content: space-between; /* Ensures content is spaced out */
   height: 100%; /* Ensures the card takes full height */
   padding: 10px 5px 10px 5px;
-  min-width: 45%;
-  margin: 10px 5px 5px 5px;
+  width: 90%;
+  margin: 10px 5px 5px 20px;
   border: none;
 }
 
@@ -378,14 +397,11 @@ textarea {
         padding: 20px;
         border: 3px solid #3a3a3a70;
       }
-    
-      .gift {
-        height: 795px;
-      }
-      
-      .tour {
-        height: 735px;
-      }
+
+      .welcome-video {
+        margin-top: 30px;
+        width: 100%;
+        height: 300px; }             
     
       .contact-form {
         right: 100px;
@@ -575,8 +591,8 @@ textarea {
         height: 762px;
       }
       
-      .museum {
-        height: 735px;
+      .tour {
+        height: 752px;
       }
 
       .contact-form {
@@ -624,10 +640,6 @@ textarea {
         padding-left: 1rem;
       }
     
-      .nav-toggle-label {
-        display: none;
-      }
-    
       #logo {
         font-size: 280%;
       }
@@ -643,7 +655,7 @@ textarea {
       .img-fluid {
         display: flex;
         position: relative;
-        margin: 10px 0 0 50px;
+        margin: 10px 0 0 200px;
         border-radius: 25px;
       }
     
@@ -654,7 +666,7 @@ textarea {
         width: 50%;
         right: 0;
         padding: 10px;
-        margin-right: 50px;
+        margin-right: 200px;
         background-color: #647061;
         text-align: center;
         color: #f7f7f7;
@@ -662,35 +674,41 @@ textarea {
         font-size: 1rem;
         border-radius: 25px;
       }
+
     
       #social-media {
         padding-bottom: 25px;
         padding-top: 25px;
       }
+
+      .tour {
+        height: 870px;
+      }
+
+      .gift {
+        height: 791px;
+      }
+
+
     
       .card {
-        width: 45%;
+        width: 20%;
         display: flex;
-        margin: 15px 15px 15px 21px;
+        margin: 15px 20px 15px 42px;
         padding: 20px;
         border: 3px solid #3a3a3a70;
       }
     
-      .gift {
-        height: 795px;
-      }
-      
-      .tour {
-        height: 735px;
-      }
+
     
       .contact-form {
         right: 100px;
         padding: 60px;
-        margin: 50px 100px 50px 80px;
+        margin: 50px 100px 50px 300px;
         box-shadow: 2px solid #d5dcd9;
         display: flex;
         flex-direction: column;
+        
       }
     
       textarea {
