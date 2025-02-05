@@ -188,7 +188,7 @@ main {
 
 .welcome-video {
   margin-top: 30px;
-  width: 100%;
+  width: fit-content;
   height: 350px;
 }
 
@@ -225,7 +225,7 @@ main {
   height: 100%; /* Ensures the card takes full height */
   padding: 10px 5px 10px 5px;
   width: 90%;
-  margin: 10px 5px 5px 20px;
+  margin: 10px 0px 5px 20px;
   border: none;
 }
 
@@ -241,6 +241,10 @@ main {
 .card-sub {
   padding: 16px;
 }
+
+.card-img-top {
+    height: 200px;
+  }
 
 
 #enquire button {
@@ -322,7 +326,7 @@ main {
 
 textarea {
   resize: vertical;
-  width: 240px;
+  width: 215px;
   height: 100px;
 }
 
@@ -490,14 +494,7 @@ textarea {
     margin: 15px 15px 15px 21px;
     padding: 20px;
     border: 3px solid #3a3a3a70;
-  }
-
-  .gift {
-    height: 795px;
-  }
-  
-  .tour {
-    height: 735px;
+    height: 825px;
   }
 
   .contact-form {
@@ -585,15 +582,9 @@ textarea {
         margin: 15px 15px 15px 30px;
         padding: 20px;
         border: 3px solid #3a3a3a70;
+        height: 725px;
       }
     
-      .gift {
-        height: 762px;
-      }
-      
-      .tour {
-        height: 752px;
-      }
 
       .contact-form {
         padding: 50px;
@@ -690,13 +681,13 @@ textarea {
       }
 
 
-    
       .card {
         width: 20%;
         display: flex;
         margin: 15px 20px 15px 42px;
         padding: 20px;
         border: 3px solid #3a3a3a70;
+        height: 857px;
       }
     
 
