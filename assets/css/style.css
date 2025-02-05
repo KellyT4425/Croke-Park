@@ -1,297 +1,314 @@
-@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Domine:wght@400..700&family=Goldman:wght@400;700&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Macondo&family=Oswald:wght@200..700&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Domine:wght@400..700&family=Goldman:wght@400;700&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Macondo&family=Oswald:wght@200..700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Domine:wght@400..700&family=Goldman:wght@400;700&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Macondo&family=Oswald:wght@200..700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Domine:wght@400..700&family=Goldman:wght@400;700&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Macondo&family=Oswald:wght@200..700&display=swap");
 
 * {
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
 }
 
 /* Generic styles */
 body {
-    min-height: 100vh;
-    min-width: 100vw;
-    background-color: #D5DCD9;
-    display: flex;
-    flex-direction: column;
-/* Generic project styles */
-    font-family: "DM Sans", serif;
+  min-height: 100vh;
+  min-width: 100vw;
+  background-color: #d5dcd9;
+  display: flex;
+  flex-direction: column;
+  /* Generic project styles */
+  font-family: "DM Sans", serif;
 }
 
-h1, h2 {
-    font-family: "Goldman", serif;
-    font-weight: 400;
-    color: #647061;
-    letter-spacing: 1px;
-    padding: 20px 0 0 0;
-    font-size: 30px;
+h1,
+h2 {
+  font-family: "Goldman", serif;
+  font-weight: 400;
+  color: #647061;
+  letter-spacing: 1px;
+  padding: 20px 0 0 0;
+  font-size: 30px;
 }
 
-h4, h5 {   
-    font-family: "Goldman", serif;
-    color:  #647061;
-    letter-spacing: 1px;
-    padding: 0;
+h4,
+h5 {
+  font-family: "Goldman", serif;
+  color: #647061;
+  letter-spacing: 1px;
+  padding: 0;
 }
 
 .croke-park h2 {
-    border-bottom: 2px solid #3e5368;
-    font-size: 30px;
-    margin-top: 15px;
-    color: #647061;
+  border-bottom: 2px solid #3e5368;
+  font-size: 30px;
+  margin-top: 15px;
+  color: #647061;
 }
 
 .vouchers h2 {
-    color:  #647061;
+  color: #647061;
 }
 
 /*Header*/
 header {
-    background-color: #647061;
-    padding: 0 1rem;
-    margin: none;
-    position: fixed;
-    z-index: 99;
-    width: 100%;
-    box-shadow: 0 2px 2px #3a3a3a;
-    display: flex;
-    justify-content: space-between;
-    align-items: baseline;
-
+  background-color: #647061;
+  padding: 0 1rem;
+  margin: none;
+  position: fixed;
+  z-index: 99;
+  width: 100%;
+  box-shadow: 0 2px 2px #3a3a3a;
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
 }
 
 #logo {
-    font-size: 2.6rem;
-    font-family: "Goldman", serif;
-    padding-top: 0.5rem;
-    color: #D5DCD9;
-    font-weight: 400;
+  font-size: 2.6rem;
+  font-family: "Goldman", serif;
+  padding-top: 0.5rem;
+  color: #d5dcd9;
+  font-weight: 400;
 }
 
 header a {
-    text-decoration: none;
-    color: inherit;
+  text-decoration: none;
+  color: inherit;
 }
 
 #menu {
-    font-size: 110%;
-    letter-spacing: 4px;
-    list-style-type: none;
+  font-size: 110%;
+  letter-spacing: 4px;
+  list-style-type: none;
 }
 
 #menu > li {
-    margin-left: 0;
-    margin-bottom: 1em;
-    color: #D5DCD9;
+  margin-left: 0;
+  margin-bottom: 1em;
+  color: #d5dcd9;
 }
 
 .active {
-    border-bottom: 1px solid #D5DCD9;
+  border-bottom: 1px solid #d5dcd9;
 }
 
 /* Navbar style with dropdown toggle */
 nav {
-    position: absolute;
-    background-color: #647061;
-    width: 100%;
-    padding: 0;
-    box-shadow: 0 2px 2px #D5DCD9;
-    left: 0;
-    display: none;
-    top: 100%;
+  position: absolute;
+  background-color: #647061;
+  width: 100%;
+  padding: 0;
+  box-shadow: 0 2px 2px #d5dcd9;
+  left: 0;
+  display: none;
+  top: 100%;
 }
 
 nav #menu {
-    padding-left: 1rem;
+  padding-left: 1rem;
 }
 
 /* Nav Toggle */
-#nav-toggle:checked~nav {
-    display: block;
+#nav-toggle:checked ~ nav {
+  display: block;
 }
 
 #nav-toggle {
-    display: none;
+  display: none;
 }
 
 .nav-toggle-label {
-    font-size: 2rem;
-    color: #D5DCD9;
-    padding-right: 10px;
+  font-size: 2rem;
+  color: #d5dcd9;
+  padding-right: 10px;
 }
 
 #social-media {
-    display: flex;
-    justify-content: space-evenly;
-    list-style-type: none;
-    padding: 5%;
-    margin-bottom: 0;
-
+  display: flex;
+  justify-content: space-evenly;
+  list-style-type: none;
+  padding: 5%;
+  margin-bottom: 0;
 }
 
 #social-media i {
-    color: #647061;
-    font-size: 1.5rem;
+  color: #647061;
+  font-size: 1.5rem;
 }
 
 main {
-    /* Make main element take up any surplus space to push footer down */
-    flex: 1 0 auto;
-    margin-top: 65px;
+  /* Make main element take up any surplus space to push footer down */
+  flex: 1 0 auto;
+  margin-top: 65px;
 }
 
 .img-fluid {
-    height: 90vw;
-    width: 90vw;
-    border-radius: 20px;
-    max-width: 400px;
-    max-height: 400px;
-    margin-top: 10px;
-    width: 100%;
-    background-color: #f7f7f7;
-    display: flex;
-    border: 2px solid #3e536870;
-    
+  height: 90vw;
+  width: 90vw;
+  border-radius: 20px;
+  max-width: 400px;
+  max-height: 400px;
+  margin-top: 10px;
+  width: 100%;
+  background-color: #f7f7f7;
+  display: flex;
+  border: 2px solid #3e536870;
+  justify-content: center;
 }
 
-.croke-park, .history, .vouchers {
-    margin-top: 10px;
-    padding: 0 5px 0 5px;
-    text-align: center;
+.croke-park,
+.history,
+.vouchers {
+  margin-top: 10px;
+  padding: 0 5px 0 5px;
+  text-align: center;
 }
 
 .atmosphere {
-    margin-bottom: 10px;
+  margin-bottom: 10px;
 }
 
-.atmosphere, .unique {
-    padding: 10px 10px 10px 10px;
-    /*background-color: rgba(24, 44, 50, 0.39);*/
-    margin: 0 5px 5px 5px;
-    font-weight: 400;
-    color:#000000;
-
+.atmosphere,
+.unique {
+  padding: 10px 10px 10px 10px;
+  /*background-color: rgba(24, 44, 50, 0.39);*/
+  margin: 0 5px 5px 5px;
+  font-weight: 400;
+  color: #000000;
 }
 
 .welcome-video {
-    margin-top: 30px;
+  margin-top: 30px;
 }
 
 .visit-crokepark h2 {
-    border: none;
-    color:  #647061;
-
-
+  border: none;
+  color: #647061;
 }
 
 .visit-crokepark {
-    padding: 0 10px 10px 10px;
+  padding: 0 10px 10px 10px;
 }
- 
-.location-map, #location h2 {
-    color:  #647061;
-    padding-left: 10px;
-   
+
+.location-map,
+#location h2 {
+  color: #647061;
+  padding-left: 10px;
 }
 
 #tour-options h2 {
-    color:  #647061;
-    padding-left: 10px;
+  color: #647061;
+  padding-left: 10px;
 }
 
 .card {
-    padding: 10px 5px 10px 5px;
-    width: 90%;
-    flex-direction: column;
-    display: flex;
-    margin: 10px auto;
-    border: none;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between; /* Ensures content is spaced out */
+  height: 100%; /* Ensures the card takes full height */
+  padding: 10px 5px 10px 5px;
+  min-width: 45%;
+  margin: 10px 5px 5px 5px;
+  border: none;
+}
+
+.card-body {
+  flex-grow: 1; /* Allows text content to expand */
+}
+
+.card-body button {
+  align-self: flex-start; /* Align button to bottom left */
+  margin-top: auto; /* Push button to bottom */
+}
+
+.card-sub {
+  padding: 16px;
+}
+
+
+#enquire button {
+  display: flex;
+  justify-content: flex-start; /* Align button to the left */
 }
 
 .card-text {
-    font-family: "DM Sans", serif;
-    font-size: 16px;
+  font-family: "DM Sans", serif;
+  font-size: 16px;
 }
 
 #enquire a {
-    background-color:  #647061;
-    color: #D5DCD9;
-    padding: 2px;
-    text-decoration: none;
-    display: flex;
-    
-    
+  background-color: #647061;
+  color: #d5dcd9;
+  padding: 5px 10px;
+  text-decoration: none;
+  display: inline-block;
 }
 
 .vouchers a {
-    text-decoration: none;
-    background-color:  #647061;
-    color: #D5DCD9;
-    padding: 2px;
+  text-decoration: none;
+  background-color: #647061;
+  color: #d5dcd9;
+  padding: 2px;
 }
 
 .location-map {
-    padding-left: 0; 
+  padding-left: 0;
 }
 
 main {
-    flex: 1 0 auto;
-    margin-top: 65px;
-    display: flex;
-    flex-direction: column;
+  flex: 1 0 auto;
+  margin-top: 65px;
+  display: flex;
+  flex-direction: column;
 }
-
 
 #hero-img {
-    background-image: url("../images/croke-parkariel.png");
-    background-color: #ffffff;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    padding: 0 10% 0 10%;
-    flex-grow: 1;
-    /*position: relative;*/
-    
+  background-image: url("../images/croke-parkariel.png");
+  background-color: #ffffff;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 0 10% 0 10%;
+  flex-grow: 1;
+  /*position: relative;*/
 }
 
-#contact-form h2 {
-    padding-top: 0;
-    padding-bottom: 10px;
-    color: #D5DCD9;
-    font-weight: 500;
+.contact-form h2 {
+  padding-top: 0;
+  padding-bottom: 10px;
+  color: #d5dcd9;
+  font-weight: 500;
 }
 
-#contact-form {
-    color: #D5DCD9;
-    background-color: rgba(24, 44, 50, 0.60);
-    padding: 30px;
-    display: flex;
-    position: absolute;
-    align-items: baseline;
-    margin: 20px;
-    font-weight: 600;
-    flex-direction: column;
-    top: 170px;
-    right: 10px;
+.contact-form {
+  color: #d5dcd9;
+  background-color: rgba(24, 44, 50, 0.6);
+  padding: 30px;
+  display: flex;
+  /* position: absolute;
+    align-items: baseline; */
+  justify-content: center;
+  margin: 60px auto;
+  font-weight: 600;
+  flex-direction: column;
+  top: 170px;
+  right: 10px;
+}
+
+.contact-form button {
+  margin: 20px 20px 20px 0px;
+  width: 100px;
+  padding: 5px;
+  background-color: #647061;
+  color: #d5dcd9;
 }
 
 textarea {
-        resize: vertical;
-        width: 220px;
-        height: 100px;
-    }
-    
+  resize: vertical;
+  width: 240px;
+  height: 100px;
+}
 
 /* Media Query: large or landscape phones (576px and up) */
 @media screen and (min-width: 576px) {
-   
-}
-
-
-/* Media Query: tablets and larger (768px and up) */
-
-@media screen and (min-width: 768px) {
-    /* Header */
     nav {
         display: block;
         position: relative;
@@ -300,41 +317,40 @@ textarea {
         width: fit-content;
         padding-right: 1rem;
         height: 5px;
-    }
-
-    #menu {
+      }
+    
+      #menu {
         display: flex;
-    }
-
-    #menu > li {
+      }
+    
+      #menu > li {
         padding-left: 1rem;
-    }
-
-    .nav-toggle-label {
+      }
+    
+      .nav-toggle-label {
         display: none;
-    }
-
-    #logo {
+      }
+    
+      #logo {
         font-size: 280%;
-
-    }
-
-    .croke-park {
+      }
+    
+      .croke-park {
         margin-top: 0;
-    }
-
-   header {
+      }
+    
+      header {
         display: baseline;
-    }
-
-    .img-fluid {
+      }
+    
+      .img-fluid {
         display: flex;
         position: relative;
         margin: 10px 0 0 50px;
         border-radius: 25px;
-    }
-
-    .history {
+      }
+    
+      .history {
         display: flex;
         position: absolute;
         top: 500px;
@@ -348,42 +364,337 @@ textarea {
         font-weight: 600;
         font-size: 1rem;
         border-radius: 25px;
-    }
-
-    #social-media {
+      }
+    
+      #social-media {
         padding-bottom: 25px;
         padding-top: 25px;
-    }
-
-    .card {
+      }
+    
+      .card {
         width: 45%;
         display: flex;
         margin: 15px 15px 15px 21px;
         padding: 20px;
         border: 3px solid #3a3a3a70;
-    }
-
-    #contact-form {
+      }
+    
+      .gift {
+        height: 795px;
+      }
+      
+      .tour {
+        height: 735px;
+      }
+    
+      .contact-form {
         right: 100px;
         padding: 60px;
-        margin: 50px 100px 50px 50px;
-        box-shadow: 2px solid #D5DCD9;
-    }
+        margin: 50px 100px 50px 80px;
+        box-shadow: 2px solid #d5dcd9;
+        display: flex;
+        flex-direction: column;
+      }
+    
+      textarea {
+        width: 315px;
+      }
+    
+}
 
+/* Media Query: tablets and larger (768px and up) */
 
+@media screen and (min-width: 768px) {
+  /* Header */
+  nav {
+    display: block;
+    position: relative;
+    top: 0;
+    box-shadow: none;
+    width: fit-content;
+    padding-right: 1rem;
+    height: 5px;
+  }
+
+  #menu {
+    display: flex;
+  }
+
+  #menu > li {
+    padding-left: 1rem;
+  }
+
+  .nav-toggle-label {
+    display: none;
+  }
+
+  #logo {
+    font-size: 280%;
+  }
+
+  .croke-park {
+    margin-top: 0;
+  }
+
+  header {
+    display: baseline;
+  }
+
+  .img-fluid {
+    display: flex;
+    position: relative;
+    margin: 10px 0 0 50px;
+    border-radius: 25px;
+  }
+
+  .history {
+    display: flex;
+    position: absolute;
+    top: 500px;
+    width: 50%;
+    right: 0;
+    padding: 10px;
+    margin-right: 50px;
+    background-color: #647061;
+    text-align: center;
+    color: #f7f7f7;
+    font-weight: 600;
+    font-size: 1rem;
+    border-radius: 25px;
+  }
+
+  #social-media {
+    padding-bottom: 25px;
+    padding-top: 25px;
+  }
+
+  .card {
+    width: 45%;
+    display: flex;
+    margin: 15px 15px 15px 21px;
+    padding: 20px;
+    border: 3px solid #3a3a3a70;
+  }
+
+  .gift {
+    height: 795px;
+  }
+  
+  .tour {
+    height: 735px;
+  }
+
+  .contact-form {
+    right: 100px;
+    padding: 60px;
+    margin: 50px 100px 50px 80px;
+    box-shadow: 2px solid #d5dcd9;
+    display: flex;
+    flex-direction: column;
+  }
+
+  #first-name, #last-name, #email-address {
+    width: 250px;
+  }
+
+  textarea {
+    width: 315px;
+  }
 
 }
 
 /* Larger devices (laptops and desktops, 992px and up) */
 @media screen and (min-width: 992px) {
-  
+    nav {
+        display: block;
+        position: relative;
+        top: 0;
+        box-shadow: none;
+        width: fit-content;
+        padding-right: 1rem;
+        height: 5px;
+      }
+    
+      #menu {
+        display: flex;
+      }
+    
+      #menu > li {
+        padding-left: 1rem;
+      }
+    
+      #logo {
+        font-size: 280%;
+      }
+    
+      .croke-park {
+        margin-top: 0;
+      }
+    
+      header {
+        display: baseline;
+      }
+    
+      .img-fluid {
+        display: flex;
+        position: relative;
+        margin: 10px 0 0 120px;
+        border-radius: 25px;
+      }
+    
+      .history {
+        display: flex;
+        position: absolute;
+        top: 500px;
+        width: 50%;
+        right: 0;
+        padding: 10px;
+        margin-right: 100px;
+        background-color: #647061;
+        text-align: center;
+        color: #f7f7f7;
+        font-weight: 600;
+        font-size: 1rem;
+        border-radius: 25px;
+      }
+    
+      #social-media {
+        padding-bottom: 25px;
+        padding-top: 25px;
+      }
+    
+      .card {
+        width: 45%;
+        display: flex;
+        margin: 15px 15px 15px 30px;
+        padding: 20px;
+        border: 3px solid #3a3a3a70;
+      }
+    
+      .gift {
+        height: 762px;
+      }
+      
+      .museum {
+        height: 735px;
+      }
+
+      .contact-form {
+        padding: 50px;
+        margin: 50px 100px 50px 150px;
+        box-shadow: 2px solid #d5dcd9;
+        display: flex;
+        flex-direction: column;
+        width: 500px;
+      }
+
+      #first-name, #last-name, #email-address {
+        width: 250px;
+      }
+    
+      textarea {
+        width: 350px;
+        height: 150px;
+      }
+
+      .contact-form h2 {
+        font-size: 40px;
+        text-align: center;
+      }
     
 }
 
 /* Larger devices for screens 1200px and wider */
 @media screen and (min-width: 1200px) {
+    nav {
+        display: block;
+        position: relative;
+        top: 0;
+        box-shadow: none;
+        width: fit-content;
+        padding-right: 1rem;
+        height: 5px;
+      }
     
-   
+      #menu {
+        display: flex;
+      }
+    
+      #menu > li {
+        padding-left: 1rem;
+      }
+    
+      .nav-toggle-label {
+        display: none;
+      }
+    
+      #logo {
+        font-size: 280%;
+      }
+    
+      .croke-park {
+        margin-top: 0;
+      }
+    
+      header {
+        display: baseline;
+      }
+    
+      .img-fluid {
+        display: flex;
+        position: relative;
+        margin: 10px 0 0 50px;
+        border-radius: 25px;
+      }
+    
+      .history {
+        display: flex;
+        position: absolute;
+        top: 500px;
+        width: 50%;
+        right: 0;
+        padding: 10px;
+        margin-right: 50px;
+        background-color: #647061;
+        text-align: center;
+        color: #f7f7f7;
+        font-weight: 600;
+        font-size: 1rem;
+        border-radius: 25px;
+      }
+    
+      #social-media {
+        padding-bottom: 25px;
+        padding-top: 25px;
+      }
+    
+      .card {
+        width: 45%;
+        display: flex;
+        margin: 15px 15px 15px 21px;
+        padding: 20px;
+        border: 3px solid #3a3a3a70;
+      }
+    
+      .gift {
+        height: 795px;
+      }
+      
+      .tour {
+        height: 735px;
+      }
+    
+      .contact-form {
+        right: 100px;
+        padding: 60px;
+        margin: 50px 100px 50px 80px;
+        box-shadow: 2px solid #d5dcd9;
+        display: flex;
+        flex-direction: column;
+      }
+    
+      textarea {
+        width: 315px;
+      }
     
 }
-
