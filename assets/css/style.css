@@ -19,7 +19,7 @@ body {
 }
 
 h1,
-h2 {
+h2, h3 {
   font-family: "Goldman", serif;
   font-weight: 600;
   color: #647061;
@@ -51,7 +51,6 @@ h5 {
 header {
   background-color: #647061;
   padding: 0 1rem;
-  margin: none;
   position: fixed;
   z-index: 99;
   width: 100%;
@@ -161,7 +160,7 @@ main {
   text-align: center;
 }
 
-.atmosphere h1 {
+.atmosphere h2 {
     color: #647061;
     font-weight: 600;
     letter-spacing: 2px;
@@ -186,11 +185,10 @@ main {
   color: #000000;
 }
 
-.welcome-video {
-  margin-top: 30px;
-  width: fit-content;
-  height: 350px;
-}
+.welcome-video iframe {
+    margin-top: 30px;
+    width: 100%;
+    height: 270px; }
 
 .visit-crokepark h2 {
   border: none;
@@ -242,9 +240,10 @@ main {
   padding: 16px;
 }
 
-.card-img-top {
-    height: 200px;
-  }
+/*.card-img-top {
+    height: 300px;
+    width: 160px;
+  }*/
 
 
 #enquire button {
@@ -284,7 +283,7 @@ main {
 }
 
 #hero-img {
-  background-image: url("../images/croke-parkariel.png");
+  background-image: url('../images/croke-parkariel.webp');
   background-color: #ffffff;
   background-position: center;
   background-repeat: no-repeat;
@@ -350,9 +349,6 @@ textarea {
         padding-left: 1rem;
       }
     
-      .nav-toggle-label {
-        display: none;
-      }
     
       #logo {
         font-size: 280%;
@@ -362,9 +358,6 @@ textarea {
         margin-top: 0;
       }
     
-      header {
-        display: baseline;
-      }
     
       .img-fluid {
         display: flex;
@@ -397,21 +390,17 @@ textarea {
       .card {
         width: 45%;
         display: flex;
-        margin: 15px 15px 15px 21px;
+        margin: 15px 20px 10px 10px;
         padding: 20px;
         border: 3px solid #3a3a3a70;
+        height: 350px;
       }
-
-      .welcome-video {
-        margin-top: 30px;
-        width: 100%;
-        height: 300px; }             
+           
     
       .contact-form {
         right: 100px;
         padding: 60px;
         margin: 50px 100px 50px 80px;
-        box-shadow: 2px solid #d5dcd9;
         display: flex;
         flex-direction: column;
       }
@@ -456,10 +445,6 @@ textarea {
     margin-top: 0;
   }
 
-  header {
-    display: baseline;
-  }
-
   .img-fluid {
     display: flex;
     position: relative;
@@ -500,8 +485,7 @@ textarea {
   .contact-form {
     right: 100px;
     padding: 60px;
-    margin: 50px 100px 50px 80px;
-    box-shadow: 2px solid #d5dcd9;
+    margin: 120px 100px 50px 80px;
     display: flex;
     flex-direction: column;
   }
@@ -542,10 +526,6 @@ textarea {
     
       .croke-park {
         margin-top: 0;
-      }
-    
-      header {
-        display: baseline;
       }
     
       .img-fluid {
@@ -589,7 +569,6 @@ textarea {
       .contact-form {
         padding: 50px;
         margin: 50px 100px 50px 150px;
-        box-shadow: 2px solid #d5dcd9;
         display: flex;
         flex-direction: column;
         width: 500px;
@@ -637,10 +616,6 @@ textarea {
     
       .croke-park {
         margin-top: 0;
-      }
-    
-      header {
-        display: baseline;
       }
     
       .img-fluid {
@@ -696,7 +671,6 @@ textarea {
         right: 100px;
         padding: 60px;
         margin: 50px 100px 50px 300px;
-        box-shadow: 2px solid #d5dcd9;
         display: flex;
         flex-direction: column;
         
