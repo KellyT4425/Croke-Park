@@ -25,7 +25,8 @@ h3 {
   font-weight: 600;
   color: #647061;
   letter-spacing: 1px;
-  font-size: 30px;
+  font-size: 25px;
+  padding-left: 10px;
 }
 
 h4,
@@ -37,13 +38,28 @@ h5 {
   font-size: 25px;
 }
 
-.visit-crokepark h1 {
+.visit-crokepark h2 {
   font-weight: 600;
-  font-size: 30px;
+  font-size: 35px;
   padding-top: 20px;
+  padding-left: 0;
   letter-spacing: 1px;
   font-family: "Goldman", serif;
   color: #647061;
+}
+
+.visit-crokepark h3{
+
+    padding: 0;}
+
+.card-body h2 {
+    font-weight: 600;
+    font-size: 25px;
+    padding-top: 20px;
+    padding-left: 0;
+    letter-spacing: 1px;
+    font-family: "Goldman", serif;
+    color: #647061
 }
 
 .croke-park h2 {
@@ -205,17 +221,12 @@ main {
   bottom: 0;
 }
 
-.visit-crokepark h2 {
-  border: none;
-  color: #647061;
-}
-
 .visit-crokepark {
   padding: 0 10px 10px 10px;
 }
 
 .location-map,
-#location h1 {
+#location h2 {
   color: #647061;
   padding-left: 10px;
 }
@@ -224,20 +235,8 @@ iframe {
   width: 100%;
   height: 250px;
   border: 0;
-  /*display: flex;
-  bottom: 0;
-  position: relative;*/
 }
 
-#tour-options h2 {
-  color: #647061;
-  font-weight: 200;
-  font-size: 25px;
-}
-
-#tour-options h1 {
-  padding-left: 10px;
-}
 
 .row {
   display: flex;
@@ -351,8 +350,8 @@ main {
 }
 
 .submit-ack {
-    padding-left: 20px;
-    padding-top: 20px;
+  padding-left: 20px;
+  padding-top: 20px;
 }
 
 textarea {
@@ -475,7 +474,6 @@ textarea {
   #menu {
     display: flex;
   }
-
 
   #menu > li {
     padding-left: 1rem;
