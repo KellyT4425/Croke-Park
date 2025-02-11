@@ -46,7 +46,7 @@ In the preparation stage of this project wireframes where created to provide vis
 
 ![WireframeSmart-Phone](assets/images/Wireframesmart-phone.png)
 
-![WireframeTAB](assets/images/WireframeTab.png)
+![WireframeTAB](assets\images\wireframe-tablet.png)
 
 ## **Features** 
 ### Navigation
