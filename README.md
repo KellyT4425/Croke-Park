@@ -54,10 +54,6 @@ In the preparation stage of this project wireframes where created to provide vis
 * The three navigation links direct the user to all pages such as Home, Tours and Contact pages.
 * The background colour is set to a willow grove green and the main header and navigation links are a couch off white colour. 
 
-![nav bar](assets\images\nav-bar.PNG) 
-
-
-
 [Visit Home Page](https://kellyt4425.github.io/Croke-Park/index.html)
 
 ### Vouchers
@@ -81,16 +77,11 @@ In the preparation stage of this project wireframes where created to provide vis
 ### Tour Options
 * On the tours page, users are able to view a number of tour cards that provide information on tours available, the length and cost of the tour. Below the cards is a link to navigate the user directly to the contact page.
 
-![tour card](assets\images\tour-options.png) 
-
-
 [Visit Tours Page](https://kellyt4425.github.io/Croke-Park/tours.html)
 
 ### Map
 * After the users have viewed tour options on the tour page, they can easily view the location of the stadium,
  at the bottom of the page there is an embedded google maps iframe which pinpoints Croke Park location.
-
-![map](assets\images\map-location.png) 
 
 
 [Visit Tours Page](https://kellyt4425.github.io/Croke-Park/tours.html)
@@ -98,18 +89,11 @@ In the preparation stage of this project wireframes where created to provide vis
 ### Contact
 * On the contact page, there is a enquire now form which requires the user to provide details such as first and last name, along with an email address. There is also a message text area which is required to submit the form. The page has a main background image of an ariel view of Croke Park.
 
-![contact](assets\images\enquire-form.png) 
-
-
 
 [Visit Contact Page](https://kellyt4425.github.io/Croke-Park/contact.html)
 
 ### Footer 
 * At the bottom of the page there is a footer which has four social media links which directs the users to different social media platforms. These links open in a new browser tab.
-
-![socials](assets\images\footer-socials.png) 
-
-
 
 [Visit Contact Page](https://kellyt4425.github.io/Croke-Park/contact.html)
 
@@ -118,15 +102,13 @@ In the preparation stage of this project wireframes where created to provide vis
 
 1. **HTML 5 and CSS 3 Validators** where used to check for any coding errors. 
 
-[HTML 5 Validator](https://validator.w3.org/#validate_by_input) 
-
-
+**HTML 5 Validator** 
 
 While validating the tours page, in the HTML 5 Validator I came accross errors which where not visable on reviewing the html code. The home page and contact page came bad free of errors.
  
 ![HTML Validator](assets\images\tour-page-validator.png)
  
-[**CSS3 Valitdator**](https://jigsaw.w3.org/css-validator/#validate_by_input) 
+**CSS3 Valitdator** 
 No errors where found while validating the CSS Stylesheet.
 
 
@@ -134,9 +116,6 @@ No errors where found while validating the CSS Stylesheet.
 
 ![Lighthouse](assets/images/lighthouse-index-mobile.png) 
 
-![Lighthouse](assets\images\lighthouse-tours-mobile.png) 
-
-![Lighthouse](assets\images\lighthouse-contact-mobile.png) 
 
 3. [**WAVE**](https://wave.webaim.org/) web accessibility evaluation tool was also used to check that the web content was accessible to individuals with disabilities. 
 
