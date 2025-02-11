@@ -1,7 +1,9 @@
-![Croke Park](assets/images/croke-park.jpg)
+![Croke Park](readme.files\croke-park.jpg)
 
 
 # **CROKE PARK** - The Home of Gaelic Football
+
+## **Deployment**
 
 >[**View my Project on GitHub - HERE**](https://github.com/KellyT4425/Croke-Park.git) <br>
 [**Deploy Website - HERE**](https://kellyt4425.github.io/Croke-Park/) 
@@ -34,7 +36,7 @@ Two font families where selected to add style to the project, DM Sans, serif was
 
 [**Canva**](https://www.canva.com/colors/color-palette-generator/) colour palette generator was used to select the colour scheme, the background image of the websites contact page was used to allow *Canva* to generate colours which would match the colours in imagery.
 
-![Colour Palette](assets/images/palletecp.png)
+![Colour Palette](readme.files\palletecp.png)
 
 ### **Imagery**
 [**Adobe Express**](https://new.express.adobe.com/) was used to edit images, mostly for pixels and resolution especially for responsing to responsive design. All images used for the website can be found in images folder attached in the respository.
@@ -44,9 +46,9 @@ Two font families where selected to add style to the project, DM Sans, serif was
 ### **Wireframes**
 In the preparation stage of this project wireframes where created to provide visual aid to how the website should look and what features and functions it should have in order to meet its purpose. [**Balsamiq**](https://balsamiq.com/?gad_source=1&gclid=Cj0KCQiAy8K8BhCZARIsAKJ8sfTQzFLDPDxMbsgk-9un-aJDk1xvFlZdENGLQvV-c8Qv2NDKX6_d-T0aAjBaEALw_wcB) was used to create the below wireframes. 
 
-![WireframeSmart-Phone](assets/images/Wireframesmart-phone.png)
+![Wireframe](readme.files\wireframe-tablet.png)
 
-![WireframeTAB](assets\images\wireframe-tablet.png)
+![Wireframe](readme.files\Wireframesmart-phone.png)
 
 ## **Features** 
 ### Navigation
@@ -54,12 +56,14 @@ In the preparation stage of this project wireframes where created to provide vis
 * The three navigation links direct the user to all pages such as Home, Tours and Contact pages.
 * The background colour is set to a willow grove green and the main header and navigation links are a couch off white colour. 
 
+![Nav Bar](readme.files\nav-bar.PNG)
+
 [Visit Home Page](https://kellyt4425.github.io/Croke-Park/index.html)
 
 ### Vouchers
 * Within the main body of the home page there is a link, this allows users to natigate directly from the home page to the tours page where they can find out more information on available vouchers.
 
-![voucher link](assets/images/voucher-link.png) 
+![voucher link](readme.files\voucher-link.png) 
 
 
 [Visit Home Page](https://kellyt4425.github.io/Croke-Park/index.html)
@@ -68,8 +72,7 @@ In the preparation stage of this project wireframes where created to provide vis
 ### Media
 * At the bottom of the homepage, above the footer there is video media, called Welcome to Croke Park. This video provides users with a quick snapshot of ariel footage of Croke Park and some of its main highlights.
 
-![video](assets/images/video-media.png) 
-
+![video](readme.files\video-media.png) 
 
 
 [Visit Home Page](https://kellyt4425.github.io/Croke-Park/index.html)
@@ -77,23 +80,29 @@ In the preparation stage of this project wireframes where created to provide vis
 ### Tour Options
 * On the tours page, users are able to view a number of tour cards that provide information on tours available, the length and cost of the tour. Below the cards is a link to navigate the user directly to the contact page.
 
+![tour card](readme.files\tour-options.png)
+
 [Visit Tours Page](https://kellyt4425.github.io/Croke-Park/tours.html)
 
 ### Map
 * After the users have viewed tour options on the tour page, they can easily view the location of the stadium,
  at the bottom of the page there is an embedded google maps iframe which pinpoints Croke Park location.
 
+![map](readme.files\map-location.png)
 
 [Visit Tours Page](https://kellyt4425.github.io/Croke-Park/tours.html)
 
 ### Contact
 * On the contact page, there is a enquire now form which requires the user to provide details such as first and last name, along with an email address. There is also a message text area which is required to submit the form. The page has a main background image of an ariel view of Croke Park.
 
+![contact](readme.files\enquire-form.png)
 
 [Visit Contact Page](https://kellyt4425.github.io/Croke-Park/contact.html)
 
 ### Footer 
 * At the bottom of the page there is a footer which has four social media links which directs the users to different social media platforms. These links open in a new browser tab.
+
+![footer](readme.files\footer-socials.png)
 
 [Visit Contact Page](https://kellyt4425.github.io/Croke-Park/contact.html)
 
@@ -106,7 +115,7 @@ In the preparation stage of this project wireframes where created to provide vis
 
 While validating the tours page, in the HTML 5 Validator I came accross errors which where not visable on reviewing the html code. The home page and contact page came bad free of errors.
  
-![HTML Validator](assets\images\tour-page-validator.png)
+![HTML Validator](readme.files\tour-page-validator.png)
  
 **CSS3 Valitdator** 
 No errors where found while validating the CSS Stylesheet.
@@ -114,7 +123,9 @@ No errors where found while validating the CSS Stylesheet.
 
 2. Chrome Dev Tools and its Lighthouse Tool for Analysing website **performance, accessibility, best practices and SEO**. Responsive design for all device sizes was also tested in Chrome Dev Tools. 
 
-![Lighthouse](assets/images/lighthouse-index-mobile.png) 
+![Lighthouse](readme.files\lighthouse-index-mobile.png) 
+![Lighthouse](readme.files\lighthouse-tours-mobile.png) 
+![Lighthouse](readme.files\lighthouse-contact-mobile.png) 
 
 
 3. [**WAVE**](https://wave.webaim.org/) web accessibility evaluation tool was also used to check that the web content was accessible to individuals with disabilities. 
