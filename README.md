@@ -52,67 +52,64 @@ In the preparation stage of this project wireframes where created to provide vis
 ### Navigation
 * At the top of the page there is the websites main header <strong>Croke Park</strong> to the left and to the right is three navigation links.
 * The three navigation links direct the user to all pages such as Home, Tours and Contact pages.
-* The background colour is set to a willow grove green and the main header and navigation links are a couch off white colour. <br>
+* The background colour is set to a willow grove green and the main header and navigation links are a couch off white colour. 
 
 ![nav bar](assets\images\nav-bar.PNG) 
 
-<br>
+
 
 [Visit Home Page](https://kellyt4425.github.io/Croke-Park/index.html)
 
 ### Vouchers
-* Within the main body of the home page there is a link, this allows users to natigate directly from the home page to the tours page where they can find out more information on available vouchers.<br>
+* Within the main body of the home page there is a link, this allows users to natigate directly from the home page to the tours page where they can find out more information on available vouchers.
 
 ![voucher link](assets/images/voucher-link.png) 
 
-<br>
 
 [Visit Home Page](https://kellyt4425.github.io/Croke-Park/index.html)
 
 
 ### Media
-* At the bottom of the homepage, above the footer there is video media, called Welcome to Croke Park. This video provides users with a quick snapshot of ariel footage of Croke Park and some of its main highlights.<br>
+* At the bottom of the homepage, above the footer there is video media, called Welcome to Croke Park. This video provides users with a quick snapshot of ariel footage of Croke Park and some of its main highlights.
 
 ![video](assets/images/video-media.png) 
 
-<br>
+
 
 [Visit Home Page](https://kellyt4425.github.io/Croke-Park/index.html)
 
 ### Tour Options
-* On the tours page, users are able to view a number of tour cards that provide information on tours available, the length and cost of the tour. Below the cards is a link to navigate the user directly to the contact page.<br>
+* On the tours page, users are able to view a number of tour cards that provide information on tours available, the length and cost of the tour. Below the cards is a link to navigate the user directly to the contact page.
 
 ![tour card](assets\images\tour-options.png) 
 
-<br>
 
 [Visit Tours Page](https://kellyt4425.github.io/Croke-Park/tours.html)
 
 ### Map
 * After the users have viewed tour options on the tour page, they can easily view the location of the stadium,
- at the bottom of the page there is an embedded google maps iframe which pinpoints Croke Park location.<br>
+ at the bottom of the page there is an embedded google maps iframe which pinpoints Croke Park location.
 
 ![map](assets\images\map-location.png) 
 
-<br>
 
 [Visit Tours Page](https://kellyt4425.github.io/Croke-Park/tours.html)
 
 ### Contact
-* On the contact page, there is a enquire now form which requires the user to provide details such as first and last name, along with an email address. There is also a message text area which is required to submit the form. The page has a main background image of an ariel view of Croke Park.<br>
+* On the contact page, there is a enquire now form which requires the user to provide details such as first and last name, along with an email address. There is also a message text area which is required to submit the form. The page has a main background image of an ariel view of Croke Park.
 
 ![contact](assets\images\enquire-form.png) 
 
-<br>
+
 
 [Visit Contact Page](https://kellyt4425.github.io/Croke-Park/contact.html)
 
 ### Footer 
-* At the bottom of the page there is a footer which has four social media links which directs the users to different social media platforms. These links open in a new browser tab.<br>
+* At the bottom of the page there is a footer which has four social media links which directs the users to different social media platforms. These links open in a new browser tab.
 
 ![socials](assets\images\footer-socials.png) 
 
-<br>
+
 
 [Visit Contact Page](https://kellyt4425.github.io/Croke-Park/contact.html)
 
@@ -123,23 +120,23 @@ In the preparation stage of this project wireframes where created to provide vis
 
 [HTML 5 Validator](https://validator.w3.org/#validate_by_input) 
 
-<br>
+
 
 While validating the tours page, in the HTML 5 Validator I came accross errors which where not visable on reviewing the html code. The home page and contact page came bad free of errors.
- <br>
+ 
 ![HTML Validator](assets\images\tour-page-validator.png)
- <br>
-[**CSS3 Valitdator**](https://jigsaw.w3.org/css-validator/#validate_by_input) <br>
+ 
+[**CSS3 Valitdator**](https://jigsaw.w3.org/css-validator/#validate_by_input) 
 No errors where found while validating the CSS Stylesheet.
 
 
-2. Chrome Dev Tools and its Lighthouse Tool for Analysing website **performance, accessibility, best practices and SEO**. Responsive design for all device sizes was also tested in Chrome Dev Tools. <br>
+2. Chrome Dev Tools and its Lighthouse Tool for Analysing website **performance, accessibility, best practices and SEO**. Responsive design for all device sizes was also tested in Chrome Dev Tools. 
 
-![Lighthouse](assets/images/lighthouse-index-mobile.png) <br>
+![Lighthouse](assets/images/lighthouse-index-mobile.png) 
 
-![Lighthouse](assets\images\lighthouse-tours-mobile.png) <br>
+![Lighthouse](assets\images\lighthouse-tours-mobile.png) 
 
-![Lighthouse](assets\images\lighthouse-contact-mobile.png) <br>
+![Lighthouse](assets\images\lighthouse-contact-mobile.png) 
 
 3. [**WAVE**](https://wave.webaim.org/) web accessibility evaluation tool was also used to check that the web content was accessible to individuals with disabilities. 
 
@@ -149,11 +146,11 @@ No errors where found while validating the CSS Stylesheet.
 
 ## **Bugs**
 
-### Unsolved Bugs <br>
+### Unsolved Bugs 
 * **Navigation** <br>
 Throughout the project I found that my nav toggle label pulls to the left on the home page and contact page, when using mobile dimensions. I have attempted to rectify this on numberious occasions but to no avail. I feel that at this time I currently lack the necessary skills required and as I progress and widen my knowledge I plan to revisit and fix any bugs that I was unable to resolve at this time. I also found that the navigation links on tablet and up move off position, rising and lowering on different screen widths. <br>
 
-* **Tour Cards/Responsive Design** <br>
+* **Tour Cards/Responsive Design** 
 When adding the cards on the tour page, a [Bootstrap](https://getbootstrap.com/docs/5.3/components/card/) component was used along with adding rules for Column Size and Spacing to the code within the HTML file, such as for example <em>sm-col-6, md-col-6</em>. I have found Bootstrap difficult to work with as a beginner but as my learning continues and my knowledge grows I intend to return and rectify any bugs and errors. Especially in relation to media queries.  
 
 
