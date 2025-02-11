@@ -55,24 +55,28 @@ In the preparation stage of this project wireframes where created to provide vis
 * The background colour is set to a willow grove green and the main header and navigation links are a couch off white colour. <br>
 
 ![nav bar](assets\images\nav-bar.PNG) <br>
+
 [**Visit Home Page**](https://kellyt4425.github.io/Croke-Park/index.html)
 
 ### Vouchers
 * Within the main body of the home page there is a link, this allows users to natigate directly from the home page to the tours page where they can find out more information on available vouchers.<br>
 
 ![voucher link](assets/images/voucher-link.png) <br>
+
 [**Visit Home Page**](https://kellyt4425.github.io/Croke-Park/index.html)
 
 ### Media
 * At the bottom of the homepage, above the footer there is video media, called Welcome to Croke Park. This video provides users with a quick snapshot of ariel footage of Croke Park and some of its main highlights.<br>
 
 ![video](assets/images/video-media.png) <br>
+
 [**Visit Home Page**](https://kellyt4425.github.io/Croke-Park/index.html)
 
 ### Tour Options
 * On the tours page, users are able to view a number of tour cards that provide information on tours available, the length and cost of the tour. Below the cards is a link to navigate the user directly to the contact page.<br>
 
 ![tour card](assets\images\tour-options.png) <br>
+
 [**Visit Tours Page**](https://kellyt4425.github.io/Croke-Park/tours.html)
 
 ### Map
@@ -80,36 +84,44 @@ In the preparation stage of this project wireframes where created to provide vis
  at the bottom of the page there is an embedded google maps iframe which pinpoints Croke Park location.<br>
 
 ![map](assets\images\map-location.png) <br>
+
 [**Visit Tours Page**](https://kellyt4425.github.io/Croke-Park/tours.html)
 
 ### Contact
 * On the contact page, there is a enquire now form which requires the user to provide details such as first and last name, along with an email address. There is also a message text area which is required to submit the form. The page has a main background image of an ariel view of Croke Park.<br>
 
 ![contact](assets\images\enquire-form.png) <br>
+
 [**Visit Contact Page**](https://kellyt4425.github.io/Croke-Park/contact.html)
 
 ### Footer 
 * At the bottom of the page there is a footer which has four social media links which directs the users to different social media platforms. These links open in a new browser tab.<br>
 
 ![socials](assets\images\footer-socials.png) <br>
+
 [**Visit Contact Page**](https://kellyt4425.github.io/Croke-Park/contact.html)
 
  
 ## **Testing and Validation**
 
 1. **HTML 5 and CSS 3 Validators** where used to check for any coding errors. 
->[**HTML 5 Validator**](https://validator.w3.org/#validate_by_input) <br>
+
+[**HTML 5 Validator**](https://validator.w3.org/#validate_by_input) <br>
+
 While validating the tours page, in the HTML 5 Validator I came accross errors which where not visable on reviewing the html code. The home page and contact page came bad free of errors.
  <br>
 ![HTML Validator](assets\images\tour-page-validator.png)
  <br>
->[**CSS3 Valitdator**](https://jigsaw.w3.org/css-validator/#validate_by_input) <br>
+[**CSS3 Valitdator**](https://jigsaw.w3.org/css-validator/#validate_by_input) <br>
 No errors where found while validating the CSS Stylesheet.
 
 
 2. Chrome Dev Tools and its Lighthouse Tool for Analysing website **performance, accessibility, best practices and SEO**. Responsive design for all device sizes was also tested in Chrome Dev Tools. <br>
+
 ![Lighthouse](assets/images/lighthouse-index-mobile.png) <br>
+
 ![Lighthouse](assets\images\lighthouse-tours-mobile.png) <br>
+
 ![Lighthouse](assets\images\lighthouse-contact-mobile.png) <br>
 
 3. [**WAVE**](https://wave.webaim.org/) web accessibility evaluation tool was also used to check that the web content was accessible to individuals with disabilities. 
