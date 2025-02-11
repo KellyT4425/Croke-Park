@@ -1,4 +1,4 @@
-![Croke Park](readme\images\croke-park.jpg)
+![Croke Park](readme/images/croke-park.jpg)
 
 
 # **CROKE PARK** - The Home of Gaelic Football
